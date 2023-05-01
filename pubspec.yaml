@@ -41,6 +41,11 @@ dependencies:
   video_player: ^2.4.5
   encrypt: ^5.0.1
   tuple: ^2.0.0
+  flutter_screenutil: ^5.7.0
+  persistent_bottom_nav_bar: ^5.0.2
+  cached_network_image: ^3.2.1
+  flutter_multi_formatter: ^2.10.2
+  keyboard_actions: ^3.4.7
 
 
   # The following adds the Cupertino Icons font to your application.

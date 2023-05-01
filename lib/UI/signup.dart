@@ -111,15 +111,15 @@ class _MyFormState extends State<MyForm> {
       GlobalKey<FormState>(debugLabel: '_homeScreenkey');
   bool autoValidate = false, obscure = true;
   File? image;
+  String? lName, gender, phone, email, pass, dob;
+  FocusNode lNameFocus = FocusNode(),
+      phoneFocus = FocusNode(),
+      emailFocus = FocusNode(),
+      passFocus = FocusNode(),
+      dobFocus = FocusNode();
 
   @override
   Widget build(BuildContext context) {
-    String? lName, gender, phone, email, pass, dob;
-    FocusNode lNameFocus = FocusNode(),
-        phoneFocus = FocusNode(),
-        emailFocus = FocusNode(),
-        passFocus = FocusNode(),
-        dobFocus = FocusNode();
 
     return Form(
       key: _formKey,
